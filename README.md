@@ -1,12 +1,16 @@
 # [CVPR 2025] Sampling Innovation-Based Adaptive Compressive Sensing
 
-## Abstract
-Scene-aware Adaptive Compressive Sensing (ACS) has attracted significant interest due to its promising capability for efficient and high-fidelity acquisition of scene images. ACS typically prescribes adaptive sampling allocation (ASA) based on previous samples in the absence of ground truth. However, when confronting unknown scenes, existing ACS methods often lack accurate judgment and robust feedback mechanisms for ASA, thus limiting the high-fidelity sensing of the scene. In this paper, we introduce a Sampling Innovation-Based ACS (SIB-ACS) method that can effectively identify and allocate sampling to challenging image reconstruction areas, culminating in high-fidelity image reconstruction. An innovation criterion is proposed to judge ASA by predicting the decrease in image reconstruction error attributable to sampling increments, thereby directing more samples towards regions where the reconstruction error diminishes significantly. A sampling innovation-guided multi-stage adaptive sampling (AS) framework is proposed, which iteratively refines the ASA through a multi-stage feedback process. For image reconstruction, we propose a Principal Component Compressed Domain Network (PCCD-Net), which efficiently and faithfully reconstructs images under AS scenarios. Extensive experiments demonstrate that the proposed SIB-ACS method significantly outperforms the state-of-the-art methods in terms of image reconstruction fidelity and visual effects.
 *Zhifu Tian, Tao Hu, Chaoyang Niu, Di Wu and Shu Wang*
+
 *Information Engineering University, Zhengzhou, China*
+
 *tzhifu@qq.com, hutaoengineering@163.com, niucy2017@outlook.com, wudipaper@sina.com, shu1008@mail.ustc.edu.cn*
 
+## Abstract
+Scene-aware Adaptive Compressive Sensing (ACS) has attracted significant interest due to its promising capability for efficient and high-fidelity acquisition of scene images. ACS typically prescribes adaptive sampling allocation (ASA) based on previous samples in the absence of ground truth. However, when confronting unknown scenes, existing ACS methods often lack accurate judgment and robust feedback mechanisms for ASA, thus limiting the high-fidelity sensing of the scene. In this paper, we introduce a Sampling Innovation-Based ACS (SIB-ACS) method that can effectively identify and allocate sampling to challenging image reconstruction areas, culminating in high-fidelity image reconstruction. An innovation criterion is proposed to judge ASA by predicting the decrease in image reconstruction error attributable to sampling increments, thereby directing more samples towards regions where the reconstruction error diminishes significantly. A sampling innovation-guided multi-stage adaptive sampling (AS) framework is proposed, which iteratively refines the ASA through a multi-stage feedback process. For image reconstruction, we propose a Principal Component Compressed Domain Network (PCCD-Net), which efficiently and faithfully reconstructs images under AS scenarios. Extensive experiments demonstrate that the proposed SIB-ACS method significantly outperforms the state-of-the-art methods in terms of image reconstruction fidelity and visual effects.
+
 ## Overview
+
 
 ## Environment
 ```
@@ -30,6 +34,9 @@ Place the test dataset into the `./dataset/test/` folder and Place the pretraine
 Operation: 
 Run eval.py.
 
+## Results
+
+
 ## Training
 Preparation 1: 
 Set the sampling rate and batchsize for the training in the train.py.
@@ -41,7 +48,7 @@ Operation:
 Firstly, start training from the first lightweight model, setting the phase parameter to 1, and then run `train.py` to train the first-stage model. At the end of each stage of training, the trained model parameter file for the current stage, `net_params_{epoch}`, are obtained. Select the optimal trained model parameter file , rename it to `model.pth`, and delete the parameters from other training epoch. Finally, run `train.py` again to train the next stage model. This process continues until the 9th stage is reached, at which point the final, complete model parameters are obtained.
 
 ## Pretrained Models and training data file
-Pre-trained models and training data file can be obtained from Baidu network disk.
+Pre-trained models and training data file can be obtained from Baidu disk.
 
 ## Citation
 ```
