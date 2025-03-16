@@ -1,4 +1,4 @@
-# <p align="center">Sampling Innovation-Based Adaptive Compressive Sensing (CVPR 2025)</p>
+# <p align="center">Sampling Innovation-Based Adaptive Compressive Sensing(CVPR 2025)</p>
 
 *<p align="center">Zhifu Tian, Tao Hu, Chaoyang Niu, Di Wu and Shu Wang</p>*
 
