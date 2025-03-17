@@ -20,7 +20,7 @@ Scene-aware Adaptive Compressive Sensing (ACS) has attracted significant interes
 ## :gift_heart: Citation
 If our work is helpful to you, please consider staring this :star:repository:star: and citing:rose::
 ```
-@Inproceedings{tian,
+@Inproceedings{tzfSIBACS,
   author    = {Zhifu Tian and Tao Hu and Chaoyang Niu and Di Wu and Shu Wang},
   title     = {Sampling Innovation-Based Adaptive Compressive Sensing},
   booktitle = {2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
@@ -28,14 +28,14 @@ If our work is helpful to you, please consider staring this :star:repository:sta
 }
 ```
 
-## Overview
+## :helicopter: Overview
 The adaptive sampling process:
 
 ![Sampling](https://github.com/giant-pandada/SIB-ACS_CVPR2025/blob/main/figures/Sampling.png) 
 
 The overview of the proposed sampling innovation-based ASM. (a) Innovation-guided multi-stage AS, (b) Innovation Estimation (IE) based on the reconstructed image information from sampling values before and after Innovation Sampling (IS).
 
-The reconstruction sampling process:
+The reconstruction process:
 
 ![Reconstruction](https://github.com/giant-pandada/SIB-ACS_CVPR2025/blob/main/figures/Reconstruction.png) 
 
