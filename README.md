@@ -86,11 +86,11 @@ The overall performance:
 
 The Visual result of reconstructed images:
 
-![Reconstructed images](https://github.com/giant-pandada/SIB-ACS_CVPR2025/blob/main/figures/Visualresult1.png) 
+![Reconstructed images](https://github.com/giant-pandada/SIB-ACS_CVPR2025/blob/main/figures/Reconstructedimages.png) 
 
 The Visual result of sampling distribution:
 
-![Sampling distribution](https://github.com/giant-pandada/SIB-ACS_CVPR2025/blob/main/figures/Visualresult2.png) 
+![Sampling distribution](https://github.com/giant-pandada/SIB-ACS_CVPR2025/blob/main/figures/Samplingdistribution.png) 
 
 
 
