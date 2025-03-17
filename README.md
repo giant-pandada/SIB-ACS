@@ -1,6 +1,6 @@
 # <p align="center">Sampling Innovation-Based Adaptive Compressive Sensing(CVPR 2025)</p>
 *<p align="center">
-![downloads](https://img.shields.io/github/downloads/giant-pandada/SIB-ACS_CVPR2025.svg)
+![downloads](https://img.shields.io/github/downloads/giant-pandada/SIB-ACS_CVPR2025/total)
 ![stars](https://img.shields.io/github/stars/giant-pandada/SIB-ACS_CVPR2025.svg)</p>*
 
 *<p align="center">Zhifu Tian, Tao Hu, Chaoyang Niu, Di Wu and Shu Wang</p>*
@@ -23,7 +23,7 @@ Scene-aware Adaptive Compressive Sensing (ACS) has attracted significant interes
 ## :gift_heart: Citation
 If our work is helpful to you, please consider staring this :star:repository:star: and citing:rose::
 ```
-@Inproceedings{tzfSIBACS,
+@Inproceedings{tian2025sibacs,
   author    = {Zhifu Tian and Tao Hu and Chaoyang Niu and Di Wu and Shu Wang},
   title     = {Sampling Innovation-Based Adaptive Compressive Sensing},
   booktitle = {2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
