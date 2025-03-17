@@ -1,6 +1,6 @@
 # <p align="center">Sampling Innovation-Based Adaptive Compressive Sensing(CVPR 2025)</p>
-*<p align="center">![downloads](https://img.shields.io/github/downloads/{username}/{repo-name}/total.svg)
-![stars](https://img.shields.io/github/stars/{username}/{repo-name}.svg)</p>*
+*<p align="center">![downloads](https://img.shields.io/github/downloads/{giant-pandada}/{SIB-ACS_CVPR2025}/total.svg)
+![stars](https://img.shields.io/github/stars/{giant-pandada}/{SIB-ACS_CVPR2025}.svg)</p>*
 *<p align="center">Zhifu Tian, Tao Hu, Chaoyang Niu, Di Wu and Shu Wang</p>*
 
 *<p align="center">Information Engineering University, Zhengzhou, China</p>*
