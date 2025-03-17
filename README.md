@@ -18,6 +18,7 @@ Scene-aware Adaptive Compressive Sensing (ACS) has attracted significant interes
 - A PCCD-Net for image reconstruction in ACS scenarios, which leverages PGD operations in the PC image to compress the dimensions of PGD in the FD features, thereby significantly reducing the computational cost while maintaining high image reconstruction performance.
 
 ## :gift_heart: Citation
+If our work is helpful to you, please consider staring this :star:repository:star: and citing:rose::
 ```
 @Inproceedings{tian,
   author    = {Zhifu Tian and Tao Hu and Chaoyang Niu and Di Wu and Shu Wang},
@@ -59,7 +60,7 @@ Set the parameters for the training in the train.py.
 :two: Preparation 2: 
 Place the training data file `train.pt` into the `./dataset` folder.
 
-Operation: 
+:triangular_flag_on_post: Operation: 
 Firstly, start training from the first lightweight model, setting the phase parameter to 1, and then run `train.py` to train the first-stage model. At the end of each stage of training, the trained model parameter file for the current stage, `net_params_{epoch}`, are obtained. Select the optimal trained model parameter file , rename it to `model.pth`, and delete the parameters from other training epoch. Finally, run `train.py` again to train the next stage model. This process continues until the 9th stage is reached, at which point the final, complete model parameters are obtained.
 
 ## :baby_chick: Test
@@ -69,14 +70,14 @@ Set the sampling rate(any sampling rate between [0.1,0.5]) and dataset for the t
 :two: Preparation 2: 
 Place the test dataset into the `./dataset/test/` folder and Place the pretrained models into the `./results/10/models/` folder.
 
-Operation: 
+:triangular_flag_on_post: Operation: 
 Run eval.py.
 
 ## :link: Pretrained Models and Training Data File
 
 - [Pretrained Models](https://pan.baidu.com/s/1RTfLRxqy-embWdtUf6TG7g?pwd=wxkq):`./results/10/models/model.pth`.
 
-- [training and test datasets](https://pan.baidu.com/s/17XfBHsJJOLR3SKurVRgGVg?pwd=r564):`./datasets/train.pth`, `./datasets/test/BSD68`, `./datasets/test/Urban100`.
+- [Training and test datasets](https://pan.baidu.com/s/17XfBHsJJOLR3SKurVRgGVg?pwd=r564):`./datasets/train.pth`, `./datasets/test/BSD68`, `./datasets/test/Urban100`.
 
 ## :poultry_leg: Results
 The overall performance:
