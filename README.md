@@ -64,7 +64,8 @@ Operation:
 Firstly, start training from the first lightweight model, setting the phase parameter to 1, and then run `train.py` to train the first-stage model. At the end of each stage of training, the trained model parameter file for the current stage, `net_params_{epoch}`, are obtained. Select the optimal trained model parameter file , rename it to `model.pth`, and delete the parameters from other training epoch. Finally, run `train.py` again to train the next stage model. This process continues until the 9th stage is reached, at which point the final, complete model parameters are obtained.
 
 ## Pretrained Models and training data file
-Pre-trained models and training datasets file can be obtained from Baidu disk.
+- [Pretrained Models](https://pan.baidu.com/s/1bNS0zs5shhjhP3moceAOWQ?pwd=0929)
+- [training datasets](https://pan.baidu.com/s/1bNS0zs5shhjhP3moceAOWQ?pwd=0929)
 
 ## Citation
 ```
