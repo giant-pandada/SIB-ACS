@@ -63,7 +63,7 @@ Place the training data file `train.pt` into the `./dataset` folder.
 :triangular_flag_on_post: Operation: 
 Firstly, start training from the first lightweight model, setting the phase parameter to 1, and then run `train.py` to train the first-stage model. At the end of each stage of training, the trained model parameter file for the current stage, `net_params_{epoch}`, are obtained. Select the optimal trained model parameter file , rename it to `model.pth`, and delete the parameters from other training epoch. Finally, run `train.py` again to train the next stage model. This process continues until the 9th stage is reached, at which point the final, complete model parameters are obtained.
 
-## :baby_chick: Test
+## :baby_chick: Evaluation
 :one: Preparation 1: 
 Set the sampling rate(any sampling rate between [0.1,0.5]) and dataset for the test in the eval.py.
 
