@@ -82,15 +82,15 @@ Run eval.py.
 ## :poultry_leg: Results
 The overall performance:
 
-![result1](https://github.com/giant-pandada/SIB-ACS_CVPR2025/blob/main/figures/performance.png) 
+![performance](https://github.com/giant-pandada/SIB-ACS_CVPR2025/blob/main/figures/Performance.png) 
 
 The Visual result of reconstructed images:
 
-![result2](https://github.com/giant-pandada/SIB-ACS_CVPR2025/blob/main/figures/Visualresult1.png) 
+![Reconstructed images](https://github.com/giant-pandada/SIB-ACS_CVPR2025/blob/main/figures/Visualresult1.png) 
 
 The Visual result of sampling distribution:
 
-![result3](https://github.com/giant-pandada/SIB-ACS_CVPR2025/blob/main/figures/Visualresult2.png) 
+![Sampling distribution](https://github.com/giant-pandada/SIB-ACS_CVPR2025/blob/main/figures/Visualresult2.png) 
 
 
 
